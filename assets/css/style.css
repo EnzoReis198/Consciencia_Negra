@@ -875,7 +875,7 @@ section{
     gap: 2rem;
     width: 100%;
     min-height: 50vh;
-    background: url("../img/banner2bg.jpg");
+    background: url("../img/banners/banner2bg-compactado.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
