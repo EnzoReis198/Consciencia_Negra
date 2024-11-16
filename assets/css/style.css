@@ -785,6 +785,8 @@ section{
         height: auto;
     }
 }
+
+
 @media(max-width:991px){
     .sobreNos{
         padding-top: 40rem;
@@ -949,9 +951,203 @@ section{
 
 /*****FIM RESPONSIVE (6) CONTADOR DO SITE*****/
 
-
-
 /*****FIM CONTADOR DO SITE*****/
+
+
+
+/*****INICIO BANDEIRAS DO SITE*****/
+
+.bandeiras{
+    text-align: center;
+    padding-top: 7rem;
+}
+
+section h4{
+font-size: 2rem;
+font-weight: 600;
+color: var(--cor-principal);
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+section h4 img{
+    padding-right: 0.5rem;
+}
+
+section h1{
+    color: var(--cor-escura);
+    font-size: 4.7rem;
+    padding-bottom: 4rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+section h1 span{
+    color: var(--cor-principal);
+}
+
+.bandeiras .bd-linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.bd-linha .bd-col{
+    padding: 1rem;
+    box-shadow: 0 0 5px var(--cor-escura);
+    background-color: var(--cor-branca);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.bd-linha .bd-col .img-bd{
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.bd-linha .bd-col .img-bd img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.bd-linha .bd-col .img-bd:hover img{
+    transform: scale(1.3);
+}
+
+.bd-linha .bd-col h5{
+    font-size: 1.8rem;
+    color: var(--cor-escura);
+    padding: 1rem 0;
+}
+
+.bd-linha .bd-col .classificacao{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.bd-col .cl-estrelas i{
+    font-size: 1.4rem;
+    color: var(--cor-principal);
+}
+
+.bd-col .bd-ct-estrelas span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+
+.bd-col .bd-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.bd-col .bd-info span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+
+.bd-col .bd-info i{
+    padding-right: 0.3rem;
+    color: var(--cor-principal);
+}
+
+
+.bd-col .bd-visualizar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bd-col .bd-visualizar a{
+    background-color: var(--cor-principal);
+    padding: 0.8rem 2.8rem;
+    border-radius: 0.5rem;
+    color: var(--cor-branca);
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+.bd-col .bd-visualizar a:hover{
+    background-color: var(--cor-escura);
+}
+
+.bandeiras a.bd-recente{
+    display: block;
+    font-size: 1.4rem;
+    width: 16rem;
+    font-weight: 600;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    margin-top: 4rem;
+    padding: 1.4rem 3rem;
+    border-radius: 12px;
+    transition: 0.5s ease;
+}
+
+.bandeiras a.bd-recente img{
+    padding-left: 0.5rem;
+}
+
+.bandeiras a.bd-recente:hover{
+    background-color: var(--cor-escura);
+}
+
+/*****FIM BANDEIRAS DO SITE*****/
+
+
+/*****INICIO RESPONSIVE (7) BANDEIRAS DO SITE*****/
+
+@media(max-width:1350px){
+    .bandeiras .bd-linha{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media(max-width:768px){
+    .bandeiras .bd-linha{
+        grid-template-columns: 1fr;
+    }
+
+    .bd-linha .bd-col .img-bd{
+        height: auto;
+    }
+
+    section h1{
+        font-size: 2.8rem;
+    }
+
+
+}
+@media(max-width:450px){
+ 
+    section h1{
+        font-size: 2.4rem;
+    }
+}
+
+
+
+
+/*****FIM RESPONSIVE (7) BANDEIRAS DO SITE*****/
+
+
+
+
 
 
 

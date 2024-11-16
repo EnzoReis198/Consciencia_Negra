@@ -38,7 +38,7 @@ window.onscroll = () =>{
 
 let campoConta = document.querySelectorAll('.numero');
 
-let intervalo = 2000;
+let intervalo = 1000;
 
 campoConta.forEach((campoConta) =>{
 
