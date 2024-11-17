@@ -1138,21 +1138,163 @@ section h1 span{
     section h1{
         font-size: 2.4rem;
     }
+
+    .bd-ct-estrelas{
+        height: auto;
+        padding-right: -5rem;
+    }
 }
-
-
-
 
 /*****FIM RESPONSIVE (7) BANDEIRAS DO SITE*****/
 
 
 
+/*****INICIO ARTISTAS DO SITE*****/
+
+.departamento{
+    background-color: var(--cor-branca);
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.departamento .dep-linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+    cursor: pointer;
+}
+
+.dep-linha .dep-col{
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--cor-bg-busca);
+    border-radius: 12px;
+
+    box-shadow: 0 0 5px var(--cor-escura);
+    transition: 0.4s ease;
+}
+
+.dep-linha .dep-col:hover{
+    transform: translateY(-10px);
+}
+
+.dep-linha .dep-col img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.dep-linha .dep-col h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+
+.dep-linha .dep-col:hover h5{
+    color: var(--cor-principal);
+
+}
+/*****FIM ARTISTAS DO SITE*****/
 
 
 
+/*****INICIO RESPONSIVE (8) ARTISTAS DO SITE*****/
+
+@media(max-width:1350px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
 
+@media(max-width:768px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
 
+@media(max-width:600px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 
+@media(max-width:450px){
+    .departamento .dep-linha{
+        grid-template-columns: 1fr;
+    }
+
+    .dep-linha .dep-col img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+/*****FIM RESPONSIVE (8) ARTISTAS DO SITE*****/
+
+
+/*****INICIO VIDEO DO SITE*****/
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 80vh;
+    background: url(../img/banners/various-people-taking-part-protests.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.play .play-btn{
+    position: relative;
+    background-color: var(--cor-branca);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 5rem;
+    line-height: 100px;
+    color: var(--cor-principal);
+}
+
+.play .play-btn::before,
+.play .play-btn::after{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 6px solid rgba(131, 11, 11, 0.411);
+    border-radius: 50%;
+    animation: animar 1.5s linear infinite;
+    opacity: 1;
+}
+
+@keyframes animar {
+    0%{
+        transform: scale(0.5);
+    }
+   
+    50%{
+        transform: scale(1);
+    }
+   
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+.play .play-btn::after{
+    animation-delay: 0.5s;
+    }
+
+
+/*****FIM VIDEO DO SITE*****/
