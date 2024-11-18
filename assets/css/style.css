@@ -392,7 +392,6 @@ nav .menuSite .menuLinks{
     position: relative;
     padding: 1.8rem 2.8rem 1.8rem 2rem;
     transition: 0.5s ease;
-    cursor: pointer;
 }
 
 .slide-destaque .slide .col-1 .button a i{
@@ -413,11 +412,7 @@ nav .menuSite .menuLinks{
     color: var(--cor-principal);
 }
 
-.slide-destaque .slide .col-1 .button a.historiaBtn:hover,
-.slide-destaque .slide .col-1 .button a.sobreBtn:hover{
-    background: var(--cor-escura);
-    color: var(--cor-branca);
-}
+
 
 .slide-destaque .slide .col-2{
     flex: 1 1 40rem;
@@ -463,6 +458,13 @@ nav .menuSite .menuLinks{
         width: 90%;
         height: 35rem;
     }
+
+    .slide-destaque .slide .col-1 .button a{
+        margin-bottom: 90px;
+        padding: 1.5rem 2.8rem 1.5rem 2rem;
+        font-size: 1.3rem;
+    }
+
 }
 
 @media(max-width:600px){
@@ -479,6 +481,7 @@ nav .menuSite .menuLinks{
     }
 
     .slide-destaque .slide .col-1 .button a{
+        margin-bottom: 90px;
         padding: 1.5rem 2.8rem 1.5rem 2rem;
         font-size: 1.3rem;
     }
@@ -502,6 +505,10 @@ nav .menuSite .menuLinks{
         .slide-destaque .slide .col-1 h1{
             font-size: 2.2rem;
         }
+}
+
+.slide-destaque .slide .col-1 .button a{
+    margin-bottom: 90px;
 }
 
 }
