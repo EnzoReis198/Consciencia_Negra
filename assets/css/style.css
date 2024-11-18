@@ -185,22 +185,13 @@ nav .menulogogoverno i{
     cursor: pointer;
 }
 
-nav .menulogogoverno .addBtn{
-    position: relative;
-    background: var(--cor-principal);
-    font-size: 1.6rem;
-    padding: 1.2rem 1.5rem;
-    color: var(--cor-branca);
-    border-radius: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.7s;
+
+
+nav .menulogogoverno .addBtn img{
+    width: 130px;
+    height: 70px;
 }
 
-nav .menulogogoverno .addBtn:hover{
-    background: var(--cor-escura);
-    color: var(--cor-branca);
-}
 
 #menuBtn{
     font-size: 3.5rem;
@@ -1111,7 +1102,7 @@ section h1 span{
 
 /*****INICIO RESPONSIVE (7) BANDEIRAS DO SITE*****/
 
-@media(max-width:1350px){
+@media(max-width:1370px){
     .bandeiras .bd-linha{
         grid-template-columns: 1fr 1fr;
     }
