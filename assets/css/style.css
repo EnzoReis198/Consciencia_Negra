@@ -250,6 +250,50 @@ nav .menuSite ul li .menuSub li a:hover{
 
 /*****FIM SUBLINK DO SITE*****/
 
+<<<<<<< HEAD
+=======
+/*****INICIO MINISUBLINK DO SITE*****/
+
+.menuSub li .menuSub-dois{
+    position: absolute;
+    left: 182px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
+    align-items: left;
+    text-align: justify;
+    padding: 1rem 0 0;
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5);
+    z-index: 111;
+    overflow: hidden;
+    display: none;
+}
+
+.menuSub li:hover .menuSub-dois{
+    display: flex;
+
+}
+
+
+.menuSub li .setaBaixo{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    color: var(--cor-escura);
+}
+
+.menuSub li:hover .setaBaixo{
+    color: var(--cor-principal);
+
+}
+
+
+/*****FIM MINISUBLINK DO SITE*****/
+
+>>>>>>> 2180962 (alteracao)
 
 
 /*****INICIO RESPONSIVE (2) DO SITE*****/
@@ -597,6 +641,7 @@ nav .menuSite .menuLinks{
     background-color: var(--cor-escura);
 }
 
+<<<<<<< HEAD
 .filtro .resultado-container{
     display: none;
     margin-top:1em;
@@ -616,6 +661,8 @@ nav .menuSite .menuLinks{
     font-size: 1.7rem;
 }
 
+=======
+>>>>>>> 2180962 (alteracao)
 
 
 /*****INICIO RESPONSIVE (4) BUSCA DO SITE*****/
@@ -770,7 +817,12 @@ section{
     padding-right: 0.5rem;
 }
 
+<<<<<<< HEAD
 .sobreNos .col-4 a{
+=======
+.sobreNos .col-4 h2{
+    width: 18rem;
+>>>>>>> 2180962 (alteracao)
     font-size: 1.6rem;
     color: var(--cor-branca);
     background-color: var(--cor-principal);
@@ -778,17 +830,29 @@ section{
     margin-top: 2.5rem;
     padding: 1.5rem 3.5rem;
     border-radius: 10px;
+<<<<<<< HEAD
     cursor: pointer;
     transition: 0.5s ease;
 }
 
 .sobreNos .col-4 a:hover{
+=======
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.sobreNos .col-4 h2:hover{
+>>>>>>> 2180962 (alteracao)
     background-color: var(--cor-escura);
     color: var(--cor-branca);
 }
 
 
+<<<<<<< HEAD
 .sobreNos .col-4 a i{
+=======
+.sobreNos .col-4 h2 i{
+>>>>>>> 2180962 (alteracao)
     font-size: 2rem;
     position: absolute;
     top: 20px;
@@ -798,7 +862,26 @@ section{
 
 /*****INICIO RESPONSIVE(5) BANNER 1 DO SITE*****/
 
+<<<<<<< HEAD
 @media(max-width:1100px){
+=======
+
+@media(max-width:1700px){
+
+    .sobreNos .col-4 h2{
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media(max-width:1100px){
+
+    .sobreNos .col-4 h2{
+        font-size: 15px;
+    }
+>>>>>>> 2180962 (alteracao)
     .sobreNos .col-3 img .s-img-um{
         margin-top: 130px;
         height: auto;
@@ -828,6 +911,11 @@ section{
 
 
 @media (max-width:768px){
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2180962 (alteracao)
     .sobreNos{
         padding-top: 40rem;
     }
@@ -1757,6 +1845,10 @@ section h1.baixar-titulo::after{
         padding: 2rem 16rem;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col img{
         width: 200px;
         height: auto;
@@ -1765,6 +1857,10 @@ section h1.baixar-titulo::after{
         border-radius: 5px;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col p{
         font-size: 1.3rem;
         color: var(--cor-branca);
@@ -1829,6 +1925,10 @@ section h1.baixar-titulo::after{
         padding-left: 5px;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col input{
         width: 100%;
         height: 40px;
@@ -1858,18 +1958,215 @@ section h1.baixar-titulo::after{
 }
 
 
+<<<<<<< HEAD
 .rodape .rodape-direitos{
+=======
+.rodape .rodape-direito{
+>>>>>>> 2180962 (alteracao)
     background-color: var(--cor-principal);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+<<<<<<< HEAD
     padding: 2rem 16;
+=======
+    padding: 2rem 16rem;
+}
+
+
+.rodape .rodape-direito p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-branca);
+    letter-spacing: 1px;
+}
+
+
+.rodape .rodape-direito p span{
+    color: var(--cor-escura);
+}
+
+.rodape .rodape-direito .rodape-redes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1.3rem 15rem;
+    background-color: var(--cor-branca);
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 5% 100%);
+}
+
+.rodape .rodape-direito .rodape-redes i{
+    font-size: 1.6rem;
+    color: var(--cor-branca);
+    background-color: var(--cor-principal);
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.rodape .rodape-direito .rodape-redes i:hover{
+    transform: scale(1.1);
+}
+/*****FIM RODAPÉ DO SITE*****/
+
+
+
+/*****INICIO RESPONSIVE (11) RODAPÉ DO SITE*****/
+
+@media(max-width:1390px){
+    .rodape .rodape-direito .rodape-redes{
+        padding: 1.3rem 5rem;
+    }
+
+}
+
+@media(max-width:1150px){
+    .rodape .rodape-direito .rodape-redes{
+        position: inherit;
+        background: none;
+        padding: 1.3rem 0;
+    }
+
+    .rodape .rodape-direito{
+        flex-direction: column;
+    }
+
+.rodape .rodape-linha{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+
+@media(max-width:991px){
+    .rodape .rodape-direito{
+        padding: 2rem 10rem;
+    }
+
+
+.rodape .rodape-linha{
+padding: 2rem 10rem;
+}
+}
+
+@media(max-width:768px){
+.rodape .rodape-linha{
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media(max-width:600px){
+    .rodape .rodape-linha{
+        grid-template-columns: 1fr;
+        padding: 2rem 7rem;
+    }
+
+    .rodape .rodape-direito{
+        padding: 2rem 7rem;
+    }
+
+    }
+
+
+
+
+/*****FIM RESPONSIVE (11) RODAPÉ DO SITE*****/
+
+
+
+/* Estilos gerais para a seção "Saiba Mais" */
+.saiba-mais {
+    padding: 40px 20px;
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    text-align: center;
+}
+
+.saiba-mais .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.saiba-mais h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.saiba-mais p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.saiba-mais h3 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #222;
+}
+
+.saiba-mais h4 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #222;
+}
+
+/* Estilos para as imagens */
+.imagem-saiba-mais {
+    margin: 30px 0;
+}
+
+.imagem-saiba-mais img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o vídeo */
+.video-saiba-mais {
+    margin-top: 40px;
+}
+
+.video-saiba-mais iframe {
+    width: 100%;
+    max-width: 850px;
+    height: 480px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do botão "Saiba Mais" */
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1e3a8a; /* Cor do botão */
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #1d65b0; /* Cor do botão quando passar o mouse */
+>>>>>>> 2180962 (alteracao)
 }
 
 
 
 
 
+<<<<<<< HEAD
 /*****FIM RODAPÉ DO SITE*****/
+=======
+
+
+>>>>>>> 2180962 (alteracao)

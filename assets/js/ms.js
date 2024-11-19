@@ -102,3 +102,29 @@ if(valorInicial == finalValor){
 
 
     /***FIM SLIDE DEPOIMENTOS DE VISITANTES***/
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+// Função para simular o envio do formulário
+document.getElementById('formContato').addEventListener('submit', function(event) {
+    event.preventDefault();  // Impede o envio real do formulário
+
+    // Exibe a mensagem de sucesso
+    document.getElementById('mensagemSucesso').style.display = 'block';
+
+    // Limpa os campos do formulário
+    document.getElementById('formContato').reset();
+});
+
+// Função para fechar a mensagem de sucesso
+document.getElementById('fecharMensagem')?.addEventListener('click', function() {
+    document.getElementById('mensagemSucesso').style.display = 'none';
+});
+>>>>>>> 2180962 (alteracao)
