@@ -2124,7 +2124,7 @@ padding: 2rem 10rem;
 
 .secao h3 {
     font-size: 2em;
-    color: #1e3a8a;
+    color: var(--cor-principal);
     margin-bottom: 10px;
 }
 
@@ -2141,7 +2141,7 @@ padding: 2rem 10rem;
 }
 
 .secao a {
-    color: #1e3a8a;
+    color: var(--cor-principal);
     text-decoration: none;
 }
 
@@ -2166,7 +2166,7 @@ padding: 2rem 10rem;
 
 
 
-
+.equipe .membro
 
 
 
