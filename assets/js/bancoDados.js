@@ -276,7 +276,7 @@ let bancoDados = {
         {id_pais: 52, nome_pais: 'Tanzânia', nome_comida: 'Sukuma', descricao: 'Prato de legumes, especialmente couve, cozidos com temperos e frequentemente servidos como acompanhamento.'}
     ]
 }
-
+// atualizando
 export default bancoDados;
 
 
