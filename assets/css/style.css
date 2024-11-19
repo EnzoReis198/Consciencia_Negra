@@ -637,6 +637,27 @@ nav .menuSite .menuLinks{
     background-color: var(--cor-escura);
 }
 
+.filtro .resultado-container{
+    display: none;
+    margin-top:1em;
+    padding: 10px;
+    background-color: #9b1d1f;
+    border-radius: 10px;
+    width: 100%;
+    color: #f2f2f2;
+}
+
+.filtro #resultado > p > strong{
+    font-size: 2.3rem;
+}
+
+.filtro #resultado > p{
+    font-size: 1.7rem;
+}
+
+
+
+
 
 
 /*****INICIO RESPONSIVE (4) BUSCA DO SITE*****/

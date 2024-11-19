@@ -73,11 +73,14 @@ paisSelect.addEventListener('change', function() {
     if (artistaId) {
         const artista = bancoDados.artistas.find(a => a.id_pais === artistaId);
         resultadoDiv.innerHTML += `<p class='resultado-p'><strong>Artista:</strong> ${artista.descricao}</p>`;
+        console.log(artista.nome_artista);
+
     }
     if (comidaId) {
         const comida = bancoDados.comidas.find(c => c.id_pais === comidaId);
         resultadoDiv.innerHTML += `<p class='resultado-p'><strong>Comida:</strong> ${comida.descricao}</p>`;
     }
+
     resultadoDiv.style.display = 'block';
 
 
