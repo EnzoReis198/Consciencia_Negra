@@ -102,8 +102,6 @@ if(valorInicial == finalValor){
 
 
     /***FIM SLIDE DEPOIMENTOS DE VISITANTES***/
-<<<<<<< HEAD
-=======
 
 
 
@@ -112,19 +110,14 @@ if(valorInicial == finalValor){
 
 
 
-// Função para simular o envio do formulário
-document.getElementById('formContato').addEventListener('submit', function(event) {
-    event.preventDefault();  // Impede o envio real do formulário
-
-    // Exibe a mensagem de sucesso
-    document.getElementById('mensagemSucesso').style.display = 'block';
-
-    // Limpa os campos do formulário
-    document.getElementById('formContato').reset();
-});
-
-// Função para fechar a mensagem de sucesso
-document.getElementById('fecharMensagem')?.addEventListener('click', function() {
-    document.getElementById('mensagemSucesso').style.display = 'none';
-});
->>>>>>> 2180962 (alteracao)
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Impede o envio real do formulário para fins de demonstração
+      var confirmationMessage = document.getElementById('confirmation-message');
+      confirmationMessage.textContent = "Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.";
+      confirmationMessage.style.display = 'block'; // Exibe a mensagem de confirmação
+      confirmationMessage.style.backgroundColor = '#4CAF50'; // Cor verde de sucesso
+      confirmationMessage.style.color = 'white';
+      confirmationMessage.style.padding = '15px';
+      confirmationMessage.style.marginTop = '20px';
+      confirmationMessage.style.borderRadius = '5px';
+  });

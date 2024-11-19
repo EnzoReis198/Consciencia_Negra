@@ -250,8 +250,6 @@ nav .menuSite ul li .menuSub li a:hover{
 
 /*****FIM SUBLINK DO SITE*****/
 
-<<<<<<< HEAD
-=======
 /*****INICIO MINISUBLINK DO SITE*****/
 
 .menuSub li .menuSub-dois{
@@ -293,7 +291,6 @@ nav .menuSite ul li .menuSub li a:hover{
 
 /*****FIM MINISUBLINK DO SITE*****/
 
->>>>>>> 2180962 (alteracao)
 
 
 /*****INICIO RESPONSIVE (2) DO SITE*****/
@@ -641,28 +638,6 @@ nav .menuSite .menuLinks{
     background-color: var(--cor-escura);
 }
 
-<<<<<<< HEAD
-.filtro .resultado-container{
-    display: none;
-    margin-top:1em;
-    padding: 10px;
-    background-color: #9b1d1f;
-    border-radius: 10px;
-    width: 100%;
-    color: #f2f2f2;
-}
-
-.filtro #resultado > p > strong{
-    font-size: 2.3rem;
-
-
-}
-.filtro #resultado > p{
-    font-size: 1.7rem;
-}
-
-=======
->>>>>>> 2180962 (alteracao)
 
 
 /*****INICIO RESPONSIVE (4) BUSCA DO SITE*****/
@@ -817,12 +792,8 @@ section{
     padding-right: 0.5rem;
 }
 
-<<<<<<< HEAD
-.sobreNos .col-4 a{
-=======
 .sobreNos .col-4 h2{
     width: 18rem;
->>>>>>> 2180962 (alteracao)
     font-size: 1.6rem;
     color: var(--cor-branca);
     background-color: var(--cor-principal);
@@ -830,29 +801,17 @@ section{
     margin-top: 2.5rem;
     padding: 1.5rem 3.5rem;
     border-radius: 10px;
-<<<<<<< HEAD
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.sobreNos .col-4 a:hover{
-=======
     transition: 0.5s ease;
     cursor: pointer;
 }
 
 .sobreNos .col-4 h2:hover{
->>>>>>> 2180962 (alteracao)
     background-color: var(--cor-escura);
     color: var(--cor-branca);
 }
 
 
-<<<<<<< HEAD
-.sobreNos .col-4 a i{
-=======
 .sobreNos .col-4 h2 i{
->>>>>>> 2180962 (alteracao)
     font-size: 2rem;
     position: absolute;
     top: 20px;
@@ -862,9 +821,6 @@ section{
 
 /*****INICIO RESPONSIVE(5) BANNER 1 DO SITE*****/
 
-<<<<<<< HEAD
-@media(max-width:1100px){
-=======
 
 @media(max-width:1700px){
 
@@ -881,7 +837,6 @@ section{
     .sobreNos .col-4 h2{
         font-size: 15px;
     }
->>>>>>> 2180962 (alteracao)
     .sobreNos .col-3 img .s-img-um{
         margin-top: 130px;
         height: auto;
@@ -911,11 +866,8 @@ section{
 
 
 @media (max-width:768px){
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 2180962 (alteracao)
     .sobreNos{
         padding-top: 40rem;
     }
@@ -1845,10 +1797,6 @@ section h1.baixar-titulo::after{
         padding: 2rem 16rem;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col img{
         width: 200px;
         height: auto;
@@ -1857,10 +1805,6 @@ section h1.baixar-titulo::after{
         border-radius: 5px;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col p{
         font-size: 1.3rem;
         color: var(--cor-branca);
@@ -1925,10 +1869,6 @@ section h1.baixar-titulo::after{
         padding-left: 5px;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2180962 (alteracao)
     .rodape-linha .rodape-col input{
         width: 100%;
         height: 40px;
@@ -1958,20 +1898,13 @@ section h1.baixar-titulo::after{
 }
 
 
-<<<<<<< HEAD
-.rodape .rodape-direitos{
-=======
 .rodape .rodape-direito{
->>>>>>> 2180962 (alteracao)
     background-color: var(--cor-principal);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
-<<<<<<< HEAD
-    padding: 2rem 16;
-=======
     padding: 2rem 16rem;
 }
 
@@ -2157,16 +2090,205 @@ padding: 2rem 10rem;
 
 .btn-saiba-mais:hover {
     background-color: #1d65b0; /* Cor do botão quando passar o mouse */
->>>>>>> 2180962 (alteracao)
 }
 
 
 
 
 
-<<<<<<< HEAD
-/*****FIM RODAPÉ DO SITE*****/
-=======
 
 
->>>>>>> 2180962 (alteracao)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos gerais para a seção de contatos */
+.contatos {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contatos .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contatos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contatos p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Estilos para as informações de contato */
+.info-contato {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 28%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.info-item h3 {
+    font-size: 1.6em;
+    color: #1e3a8a;
+    margin: 10px 0;
+}
+
+.info-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.info-item i {
+    font-size: 2.5em;
+    color: #1e3a8a;
+}
+
+/* Estilos para os links de redes sociais */
+.social-links a {
+    display: block;
+    font-size: 1.2em;
+    color: #1e3a8a;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #3b82f6;
+}
+
+/* Estilos para o formulário de contato */
+.form-contato {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.form-contato h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-contato .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-contato label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-contato textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.btn-enviar {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #1d65b0;
+}
+
+/* Estilos para o mapa */
+.mapa {
+    margin-top: 40px;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .info-contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-item {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .form-contato {
+        padding: 20px;
+    }
+
+    .form-contato h3 {
+        font-size: 1.8em;
+    }
+
+    .form-contato input, .form-contato textarea {
+        font-size: 1em;
+    }
+
+    .btn-enviar {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 1.2em;
+    }
+}
