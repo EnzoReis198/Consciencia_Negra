@@ -256,17 +256,8 @@
         <div class="filtro-item">
 
             <H4>Paises</H4>
-            <select name="" id="">
-                <option value="">Africa do Sul</option>
-                <option value="">Angola</option>
-                <option value="">Egito</option>
-                <option value="">PAIS 4</option>
-                <option value="">PAIS 5</option>
-                <option value="">PAIS 6</option>
-                <option value="">PAIS 7</option>
-                <option value="">PAIS 8</option>
-                <option value="">PAIS 9</option>
-                <option value="">PAIS 10</option>
+            <select name="paisSelect" id="paisSelect">
+                <option value="">Selecione um Pais</option>
             </select>
         </div>
 <!--FIM ITEM DO FILTRO PAISES DO SITE CONSCIÊNCIA NEGRA-->
@@ -276,12 +267,9 @@
         <div class="filtro-item">
 
             <H4>Artistas</H4>
-            <select name="" id="">
-                <option value="">ARTISTA 1</option>
-                <option value="">ARTISTA 2</option>
-                <option value="">ARTISTA 3</option>
-                <option value="">ARTISTA 4</option>
-                <option value="">ARTISTA 5</option>
+            <select name="artistaSelect" id="artistaSelect">
+                <option value="">Selecione um artista</option>
+            
             </select>
         </div>
 <!--FIM ITEM 2 DO FILTRO PAISES DO SITE CONSCIÊNCIA NEGRA-->
@@ -292,12 +280,9 @@
 <div class="filtro-item">
 
     <H4>Comidas Tipicas</H4>
-    <select name="" id="">
-        <option value="">COMIDA 1</option>
-        <option value="">COMIDA 2</option>
-        <option value="">COMIDA 3</option>
-        <option value="">COMIDA 4</option>
-        <option value="">COMIDA 5</option>
+    <select name="comidaSelect" id="comidaSelect">
+        <option value="">Selecione uma comida</option>
+        
     </select>
 </div>
 <!--FIM ITEM 3 DO FILTRO PAISES DO SITE CONSCIÊNCIA NEGRA-->
@@ -310,9 +295,12 @@
 
 <!--INICIO BOTÃO DO FILTRO PAISES DO SITE CONSCIÊNCIA NEGRA-->
 <div class="busca-site-btn">
-    <button type="submit" name=""> <i class='bx bx-search-alt-2'></i> Buscar Paises, Artistas e Outros</button>
+    <button type="submit" name="" id="btn-buscarPaises"> <i class='bx bx-search-alt-2'></i> Buscar Paises, Artistas e Outros</button>
 </div>
 <!--FIM BOTÃO DO FILTRO PAISES DO SITE CONSCIÊNCIA NEGRA-->
+
+    </div>
+    <div id="resultado" class="resultado-container">
 
     </div>
 </div>
@@ -1350,5 +1338,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/ms.js"></script>
+    <script type="module" src="assets/js/vejaMaisSobrePaises.js"></script>
 </body>
 </html>
