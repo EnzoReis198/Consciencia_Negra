@@ -272,7 +272,6 @@ nav .menuSite ul li .menuSub li a:hover{
 
 .menuSub li:hover .menuSub-dois{
     display: flex;
-
 }
 
 
@@ -2290,5 +2289,181 @@ padding: 2rem 10rem;
         width: 100%;
         padding: 15px 0;
         font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+
+/* Estilos gerais para a página Sobre Nós */
+.sobre-nos {
+    padding: 60px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* Estilos para a seção Missão, Visão e Valores */
+.missao-visao-valores {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.missao-visao-valores .item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.missao-visao-valores .item i {
+    font-size: 3em;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.missao-visao-valores h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.missao-visao-valores p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Estilos para a seção História */
+.historia {
+    margin-bottom: 50px;
+}
+
+.historia h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilos para as imagens */
+.imagens {
+    margin-bottom: 50px;
+}
+
+.imagens h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.imagens-galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagens-galeria img {
+    width: 32%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.imagens-galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para a equipe */
+.equipe {
+    margin-bottom: 50px;
+}
+
+.equipe h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.membros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.membro {
+    text-align: center;
+    width: 30%;
+    margin: 20px 0;
+}
+
+.membro img {
+    width: 100%;
+    border-radius: 50%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.membro h4 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #333;
+}
+
+.membro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .missao-visao-valores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .missao-visao-valores .item {
+        width: 80%;
+    }
+
+    .imagens-galeria img {
+        width: 100%;
+    }
+
+    .membros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membro {
+        width: 80%;
+        margin-bottom: 20px;
     }
 }
